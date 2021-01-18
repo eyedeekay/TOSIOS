@@ -40,4 +40,4 @@ server.onShutdown(() => {
 });
 
 server.listen(PORT);
-console.log(`Listening on`, server.address);
+console.log(`Listening on`, server.session.DESTINATION);
